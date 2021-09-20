@@ -46,9 +46,6 @@ b %>%
                               "São Paulo" = "SP")) +
   theme_minimal()
 
-
-#36454F
-
 ## barra dupla
 
 ## ajustando dados
