@@ -57,6 +57,11 @@ reg02 <- lm (renda_log ~ raca, data = a)
 reg03 <- lm(renda_log ~ hora_trabalho + idade, data = a)
 reg04 <- lm(renda_log ~ hora_trabalho + raca + idade , data = a)
 
+# post-hoc
+
+library (car)
+vif(reg04)
+anova(reg04)
 
 # logística
 
